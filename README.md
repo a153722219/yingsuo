@@ -40,7 +40,7 @@ addEventListener(
 )
 ```
 
-或者 
+或者（对于heroku） 
 
 ```
 // 单日
@@ -52,7 +52,7 @@ const CFproxy = true
 
 // 由于heroku不绑卡不能自定义域名，就算绑卡后https也不方便
 // 另外免费套餐每月550小时，有些人不够用
-// 于是在CF Workers使用此代码，分单双日拉取不同heroku帐号下的相同网页
+// 于是在CF Workers使用此代码，分单双日反代不同heroku帐号下的相同配置的app
 // 只改上面，下面不用动
 
 addEventListener(
