@@ -47,8 +47,6 @@ addEventListener(
 const SingleDay = '111.herokuapp.com'
 // 双日
 const DoubleDay = '222.herokuapp.com'
-// 一切给CF代理，true/false
-const CFproxy = true
 
 // 由于heroku不绑卡不能自定义域名，就算绑卡后https也不方便
 // 另外免费套餐每月550小时，有些人不够用
